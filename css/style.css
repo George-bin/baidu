@@ -1,0 +1,134 @@
+@charset 'utf-8';
+
+/*网页头部开始*/
+#header {
+	width: 1338px;
+	height: 70px;
+	margin: 0 auto;
+}
+#header .nav {
+	float: right;
+	font-size: 14px;
+	font-weight: bold;
+}
+#header .nav li {
+	float: left;
+	line-height: 70px;
+	margin-left: 18px;
+}
+#header .nav li a:hover {
+	color: #0037D4;
+}
+#header .nav span {
+	font-size: 12px;
+}
+.header_nav_m a {
+	color: #FFF;
+    padding: 4px 4px;
+    background-color: #0088F1;
+}
+#header li.header_nav_m a:hover {
+	text-decoration:none;
+	color: #000;
+	background-color: #DDD;
+}
+/*网页头部结束*/
+
+
+/*网页标志区*/
+#content {
+	clear: both;
+
+	width: 1338px;
+	margin:0 auto;
+}
+#content img {
+	display: block;
+	padding-top: 10px;
+	margin: 0 auto;
+}
+#content .search {
+	display: block;
+	position: relative;
+
+	width: 640px;
+	padding-top: 30px;
+	margin: 0 auto;
+}
+#content .search input {
+	float: left;
+	width: 526px;
+	height: 36px;
+	line-height: 36px;
+	padding: 0 8px;
+	margin: 0 auto;
+	border: 1px solid #BABABA;
+}
+#content .search input:hover {
+	border: 1px solid #979797;
+}
+#content .search button {
+	float: left;
+	width: 90px;
+	height: 38px;
+	line-height: 38px;
+    font-size: 14px;
+    border: none;
+    letter-spacing: 1.5px;
+    color: #FFF;
+    background-color: #0088F1;
+}
+#content .search button:hover {
+	background-color: #0060FF;
+	cursor: pointer;
+}
+.content_sear_c {
+	position: absolute;
+	top: 42px;
+	left: 510px;
+	width: 18px;
+	height: 18px;
+    background: url(../images/camera.png) no-repeat;
+}
+.content_sear_c:hover {
+	background: url(../images/camera.png) 0 -20px no-repeat;
+}
+
+#content .content_qr {
+	clear: both;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #666;
+}
+#content .content_qr img {
+	margin-top: 200px;
+}
+#content .content_qr p {
+	margin: 3px 0 30px 0;
+}
+/*网页标志区结束*/
+
+
+/*网页底部开始*/
+#footer {
+	width: 1338px;
+	height: 95px;
+	margin: 0 auto;
+	text-align: center;
+	color: #B1B1B1;
+}
+#footer a {
+	color: #B1B1B1;
+}
+.footer_a a {
+    margin-left: 20px;
+    
+}
+.footer_copy {
+	margin-top: 7px;
+}
+.footer_copy a {
+	margin: 0 20px 0 20px;
+}
+/*网页底部结束*/
